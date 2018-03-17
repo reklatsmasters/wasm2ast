@@ -1,0 +1,31 @@
+{
+  "name": "wasm2ast",
+  "version": "0.0.0",
+  "description": "WebAssembly Binary AST Parser",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "xo && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reklatsmasters/wasm2ast.git"
+  },
+  "keywords": [
+    "wasm",
+    "ast",
+    "wat",
+    "webassembly",
+    "asm",
+    "asm.js"
+  ],
+  "author": "Dmitriy Tsvettsikh <me@reklatsmasters.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reklatsmasters/wasm2ast/issues"
+  },
+  "homepage": "https://github.com/reklatsmasters/wasm2ast#readme",
+  "dependencies": {
+    "binary-data": "github:reklatsmasters/binary-data#32e623d",
+    "bn.js": "^4.11.8"
+  }
+}
