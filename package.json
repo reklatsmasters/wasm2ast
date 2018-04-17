@@ -25,7 +25,25 @@
   },
   "homepage": "https://github.com/reklatsmasters/wasm2ast#readme",
   "dependencies": {
-    "binary-data": "github:reklatsmasters/binary-data#0bb79ba",
+    "binary-data": "github:reklatsmasters/binary-data#00542e1",
     "bn.js": "^4.11.8"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3"
+  },
+  "jest": {
+    "modulePaths": [
+      "<rootDir>",
+      "<rootDir>/src",
+      "<rootDir>/src/node_modules"
+    ],
+    "testRegex": "test/(.*)\\.js$",
+    "coverageDirectory": "<rootDir>/coverage",
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/node_modules/"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
   }
 }
